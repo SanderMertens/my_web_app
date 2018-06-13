@@ -1,0 +1,11 @@
+in application /my_web_app
+
+enum Color:/ Red, Yellow, Green, Blue
+
+class Car:/
+    speed: float64
+    latitude: float64
+    longitude: float64
+    color: my_web_app/Color
+    stop: bool
+

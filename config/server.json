@@ -1,0 +1,21 @@
+[{
+    "id": "config/ui",
+    "type": "corto/ui/service",
+    "value": {
+        "port": 9090,
+        "endpoint": "ui"
+    }
+}, {
+    "id": "config/content_server",
+    "type": "corto/httpserver/files",
+    "value": {
+        "port": 9090,
+        "path": "etc"
+    }
+}, {
+    "id": "config/data_server",
+    "type": "corto/ws/service",
+    "value": {
+        "port": 9090
+    }
+}]

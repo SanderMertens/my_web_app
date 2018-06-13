@@ -1,0 +1,11 @@
+.car {
+    border: solid 1px #000;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+.button {
+    background-color: #ff0000;
+    cursor: pointer;
+}
